@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1EF273C2694B94100E1407F /* DWDWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF273B2694B94100E1407F /* DWDWatchApp.swift */; };
+		B1EF273E2694B94100E1407F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF273D2694B94100E1407F /* ContentView.swift */; };
+		B1EF27402694B94300E1407F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EF273F2694B94300E1407F /* Assets.xcassets */; };
+		B1EF27432694B94300E1407F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EF27422694B94300E1407F /* Preview Assets.xcassets */; };
+		B1EF274F2694B94300E1407F /* DWDWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF274E2694B94300E1407F /* DWDWatchTests.swift */; };
+		B1EF275A2694B94300E1407F /* DWDWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF27592694B94300E1407F /* DWDWatchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1EF274B2694B94300E1407F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1EF27302694B94100E1407F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1EF27372694B94100E1407F;
+			remoteInfo = DWDWatch;
+		};
+		B1EF27562694B94300E1407F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1EF27302694B94100E1407F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1EF27372694B94100E1407F;
+			remoteInfo = DWDWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1EF27382694B94100E1407F /* DWDWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWDWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1EF273B2694B94100E1407F /* DWDWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWDWatchApp.swift; sourceTree = "<group>"; };
+		B1EF273D2694B94100E1407F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1EF273F2694B94300E1407F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1EF27422694B94300E1407F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1EF27442694B94300E1407F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1EF27452694B94300E1407F /* DWDWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DWDWatch.entitlements; sourceTree = "<group>"; };
+		B1EF274A2694B94300E1407F /* DWDWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWDWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1EF274E2694B94300E1407F /* DWDWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWDWatchTests.swift; sourceTree = "<group>"; };
+		B1EF27502694B94300E1407F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1EF27552694B94300E1407F /* DWDWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWDWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1EF27592694B94300E1407F /* DWDWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWDWatchUITests.swift; sourceTree = "<group>"; };
+		B1EF275B2694B94300E1407F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1EF27352694B94100E1407F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EF27472694B94300E1407F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EF27522694B94300E1407F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1EF272F2694B94100E1407F = {
+			isa = PBXGroup;
+			children = (
+				B1EF273A2694B94100E1407F /* DWDWatch */,
+				B1EF274D2694B94300E1407F /* DWDWatchTests */,
+				B1EF27582694B94300E1407F /* DWDWatchUITests */,
+				B1EF27392694B94100E1407F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1EF27392694B94100E1407F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1EF27382694B94100E1407F /* DWDWatch.app */,
+				B1EF274A2694B94300E1407F /* DWDWatchTests.xctest */,
+				B1EF27552694B94300E1407F /* DWDWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1EF273A2694B94100E1407F /* DWDWatch */ = {
+			isa = PBXGroup;
+			children = (
+				B1EF273B2694B94100E1407F /* DWDWatchApp.swift */,
+				B1EF273D2694B94100E1407F /* ContentView.swift */,
+				B1EF273F2694B94300E1407F /* Assets.xcassets */,
+				B1EF27442694B94300E1407F /* Info.plist */,
+				B1EF27452694B94300E1407F /* DWDWatch.entitlements */,
+				B1EF27412694B94300E1407F /* Preview Content */,
+			);
+			path = DWDWatch;
+			sourceTree = "<group>";
+		};
+		B1EF27412694B94300E1407F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B1EF27422694B94300E1407F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1EF274D2694B94300E1407F /* DWDWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1EF274E2694B94300E1407F /* DWDWatchTests.swift */,
+				B1EF27502694B94300E1407F /* Info.plist */,
+			);
+			path = DWDWatchTests;
+			sourceTree = "<group>";
+		};
+		B1EF27582694B94300E1407F /* DWDWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1EF27592694B94300E1407F /* DWDWatchUITests.swift */,
+				B1EF275B2694B94300E1407F /* Info.plist */,
+			);
+			path = DWDWatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1EF27372694B94100E1407F /* DWDWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1EF275E2694B94300E1407F /* Build configuration list for PBXNativeTarget "DWDWatch" */;
+			buildPhases = (
+				B1EF27342694B94100E1407F /* Sources */,
+				B1EF27352694B94100E1407F /* Frameworks */,
+				B1EF27362694B94100E1407F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DWDWatch;
+			productName = DWDWatch;
+			productReference = B1EF27382694B94100E1407F /* DWDWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1EF27492694B94300E1407F /* DWDWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1EF27612694B94300E1407F /* Build configuration list for PBXNativeTarget "DWDWatchTests" */;
+			buildPhases = (
+				B1EF27462694B94300E1407F /* Sources */,
+				B1EF27472694B94300E1407F /* Frameworks */,
+				B1EF27482694B94300E1407F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1EF274C2694B94300E1407F /* PBXTargetDependency */,
+			);
+			name = DWDWatchTests;
+			productName = DWDWatchTests;
+			productReference = B1EF274A2694B94300E1407F /* DWDWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1EF27542694B94300E1407F /* DWDWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1EF27642694B94300E1407F /* Build configuration list for PBXNativeTarget "DWDWatchUITests" */;
+			buildPhases = (
+				B1EF27512694B94300E1407F /* Sources */,
+				B1EF27522694B94300E1407F /* Frameworks */,
+				B1EF27532694B94300E1407F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1EF27572694B94300E1407F /* PBXTargetDependency */,
+			);
+			name = DWDWatchUITests;
+			productName = DWDWatchUITests;
+			productReference = B1EF27552694B94300E1407F /* DWDWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1EF27302694B94100E1407F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B1EF27372694B94100E1407F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B1EF27492694B94300E1407F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B1EF27372694B94100E1407F;
+					};
+					B1EF27542694B94300E1407F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B1EF27372694B94100E1407F;
+					};
+				};
+			};
+			buildConfigurationList = B1EF27332694B94100E1407F /* Build configuration list for PBXProject "DWDWatch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1EF272F2694B94100E1407F;
+			productRefGroup = B1EF27392694B94100E1407F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1EF27372694B94100E1407F /* DWDWatch */,
+				B1EF27492694B94300E1407F /* DWDWatchTests */,
+				B1EF27542694B94300E1407F /* DWDWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1EF27362694B94100E1407F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EF27432694B94300E1407F /* Preview Assets.xcassets in Resources */,
+				B1EF27402694B94300E1407F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EF27482694B94300E1407F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EF27532694B94300E1407F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1EF27342694B94100E1407F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EF273E2694B94100E1407F /* ContentView.swift in Sources */,
+				B1EF273C2694B94100E1407F /* DWDWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EF27462694B94300E1407F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EF274F2694B94300E1407F /* DWDWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EF27512694B94300E1407F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EF275A2694B94300E1407F /* DWDWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1EF274C2694B94300E1407F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1EF27372694B94100E1407F /* DWDWatch */;
+			targetProxy = B1EF274B2694B94300E1407F /* PBXContainerItemProxy */;
+		};
+		B1EF27572694B94300E1407F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1EF27372694B94100E1407F /* DWDWatch */;
+			targetProxy = B1EF27562694B94300E1407F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B1EF275C2694B94300E1407F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1EF275D2694B94300E1407F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B1EF275F2694B94300E1407F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DWDWatch/DWDWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DWDWatch/Preview Content\"";
+				DEVELOPMENT_TEAM = 9BM36595F7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DWDWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lf.DWDWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B1EF27602694B94300E1407F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DWDWatch/DWDWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DWDWatch/Preview Content\"";
+				DEVELOPMENT_TEAM = 9BM36595F7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DWDWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lf.DWDWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B1EF27622694B94300E1407F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9BM36595F7;
+				INFOPLIST_FILE = DWDWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lf.DWDWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWDWatch.app/Contents/MacOS/DWDWatch";
+			};
+			name = Debug;
+		};
+		B1EF27632694B94300E1407F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9BM36595F7;
+				INFOPLIST_FILE = DWDWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lf.DWDWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DWDWatch.app/Contents/MacOS/DWDWatch";
+			};
+			name = Release;
+		};
+		B1EF27652694B94300E1407F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9BM36595F7;
+				INFOPLIST_FILE = DWDWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lf.DWDWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DWDWatch;
+			};
+			name = Debug;
+		};
+		B1EF27662694B94300E1407F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9BM36595F7;
+				INFOPLIST_FILE = DWDWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lf.DWDWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DWDWatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1EF27332694B94100E1407F /* Build configuration list for PBXProject "DWDWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1EF275C2694B94300E1407F /* Debug */,
+				B1EF275D2694B94300E1407F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1EF275E2694B94300E1407F /* Build configuration list for PBXNativeTarget "DWDWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1EF275F2694B94300E1407F /* Debug */,
+				B1EF27602694B94300E1407F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1EF27612694B94300E1407F /* Build configuration list for PBXNativeTarget "DWDWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1EF27622694B94300E1407F /* Debug */,
+				B1EF27632694B94300E1407F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1EF27642694B94300E1407F /* Build configuration list for PBXNativeTarget "DWDWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1EF27652694B94300E1407F /* Debug */,
+				B1EF27662694B94300E1407F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1EF27302694B94100E1407F /* Project object */;
+}
