@@ -13,6 +13,11 @@
 		B1EF27432694B94300E1407F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EF27422694B94300E1407F /* Preview Assets.xcassets */; };
 		B1EF274F2694B94300E1407F /* DWDWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF274E2694B94300E1407F /* DWDWatchTests.swift */; };
 		B1EF275A2694B94300E1407F /* DWDWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF27592694B94300E1407F /* DWDWatchUITests.swift */; };
+		B1EF27692694BB3600E1407F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF27682694BB3600E1407F /* NetworkManager.swift */; };
+		B1EF276B2694BEA800E1407F /* PathComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF276A2694BEA800E1407F /* PathComponents.swift */; };
+		B1EF276E2694C04E00E1407F /* SecretManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF276D2694C04E00E1407F /* SecretManager.swift */; };
+		B1EF27702694C2F300E1407F /* ContentViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF276F2694C2F300E1407F /* ContentViewViewModel.swift */; };
+		B1EF27722694E5B400E1407F /* ImageWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF27712694E5B400E1407F /* ImageWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +51,11 @@
 		B1EF27552694B94300E1407F /* DWDWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DWDWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1EF27592694B94300E1407F /* DWDWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWDWatchUITests.swift; sourceTree = "<group>"; };
 		B1EF275B2694B94300E1407F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1EF27682694BB3600E1407F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B1EF276A2694BEA800E1407F /* PathComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathComponents.swift; sourceTree = "<group>"; };
+		B1EF276D2694C04E00E1407F /* SecretManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretManager.swift; sourceTree = "<group>"; };
+		B1EF276F2694C2F300E1407F /* ContentViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewViewModel.swift; sourceTree = "<group>"; };
+		B1EF27712694E5B400E1407F /* ImageWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +107,10 @@
 			isa = PBXGroup;
 			children = (
 				B1EF273B2694B94100E1407F /* DWDWatchApp.swift */,
-				B1EF273D2694B94100E1407F /* ContentView.swift */,
+				B1EF27732694EC9700E1407F /* MainView */,
+				B1EF27742694EC9E00E1407F /* Model */,
+				B1EF276C2694C03100E1407F /* SecretManager */,
+				B1EF27672694BB2900E1407F /* Network */,
 				B1EF273F2694B94300E1407F /* Assets.xcassets */,
 				B1EF27442694B94300E1407F /* Info.plist */,
 				B1EF27452694B94300E1407F /* DWDWatch.entitlements */,
@@ -130,6 +143,40 @@
 				B1EF275B2694B94300E1407F /* Info.plist */,
 			);
 			path = DWDWatchUITests;
+			sourceTree = "<group>";
+		};
+		B1EF27672694BB2900E1407F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B1EF27682694BB3600E1407F /* NetworkManager.swift */,
+				B1EF276A2694BEA800E1407F /* PathComponents.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B1EF276C2694C03100E1407F /* SecretManager */ = {
+			isa = PBXGroup;
+			children = (
+				B1EF276D2694C04E00E1407F /* SecretManager.swift */,
+			);
+			path = SecretManager;
+			sourceTree = "<group>";
+		};
+		B1EF27732694EC9700E1407F /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				B1EF273D2694B94100E1407F /* ContentView.swift */,
+				B1EF276F2694C2F300E1407F /* ContentViewViewModel.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		B1EF27742694EC9E00E1407F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1EF27712694E5B400E1407F /* ImageWrapper.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,8 +308,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1EF27692694BB3600E1407F /* NetworkManager.swift in Sources */,
 				B1EF273E2694B94100E1407F /* ContentView.swift in Sources */,
+				B1EF276E2694C04E00E1407F /* SecretManager.swift in Sources */,
+				B1EF27722694E5B400E1407F /* ImageWrapper.swift in Sources */,
+				B1EF276B2694BEA800E1407F /* PathComponents.swift in Sources */,
 				B1EF273C2694B94100E1407F /* DWDWatchApp.swift in Sources */,
+				B1EF27702694C2F300E1407F /* ContentViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
